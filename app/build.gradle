@@ -1,4 +1,6 @@
 apply plugin: 'com.android.application'
+apply plugin: 'com.github.dcendents.android-maven'
+group='com.github.youtopin'
 
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion as Integer
@@ -38,3 +40,4 @@ dependencies {
     androidTestCompile 'com.squareup.assertj:assertj-android:1.0.0'
     compile project(':FFmpegAndroid')
 }
+
